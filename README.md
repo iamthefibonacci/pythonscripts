@@ -1,2 +1,2 @@
 # pythonscripts
-My Python Scripts
+Send money and receive a text using Python and Twilio.
