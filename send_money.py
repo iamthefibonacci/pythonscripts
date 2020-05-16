@@ -4,7 +4,7 @@ from twilio.rest import Client
 
 balance = 3000
 
-""" Get the Account ID and AUTH TOKEN from Twilion. Use this link to get free $10. www.twilio.com/referral/nXOWyq"""
+""" Get the Account ID and AUTH TOKEN from Twilio. Use this link to get free $10. www.twilio.com/referral/nXOWyq"""
 client = Client("ACxxxxxxxxxxxxxxxxxxxxxxxx", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
 receiver = input("Please enter the name of the receiver: ")
