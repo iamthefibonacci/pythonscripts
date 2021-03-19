@@ -3,8 +3,8 @@ import twilio
 import os
 from twilio.rest import Client
 
-account_sid = 'AC426a2bd334968e759d9160e68de648ad'
-auth_token = '86f8266764cd6ae026eb9cb5ddf80512'
+account_sid = '*****'
+auth_token = '*****'
 client = Client(account_sid, auth_token)
 
 
@@ -29,7 +29,7 @@ user_name = user1.name
 user_balance = user1.balance
 
 client.messages.create(
-    to="+27622003787",
+    to="+270000000",
     from_="+18154585706",
     body=f"hi {user_name}, Your salary is {user_balance} and your net salary is {tendai_salary}"
 )
